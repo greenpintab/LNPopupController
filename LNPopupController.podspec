@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   
   s.platform              = :ios, '8.0'
   
-  s.source_files          = 'Classes/*.{h,m}'
+  s.source_files          = 'Classes/**/*.{h,m}'
   s.framework             = 'Foundation', 'UIKit'
   s.requires_arc          = true
 end
