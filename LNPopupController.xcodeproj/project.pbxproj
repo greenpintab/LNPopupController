@@ -11,8 +11,6 @@
 		E29E906D1F0BB4E200340057 /* LNPopupCloseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E90561F0BB4BE00340057 /* LNPopupCloseButton.h */; };
 		E29E906E1F0BB4E200340057 /* LNPopupContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E90571F0BB4BE00340057 /* LNPopupContentView.h */; };
 		E29E906F1F0BB4E200340057 /* LNPopupItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E90581F0BB4BE00340057 /* LNPopupItem.h */; };
-		E29E90701F0BB4E200340057 /* __MarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E905A1F0BB4BE00340057 /* __MarqueeLabel.h */; };
-		E29E90711F0BB4E200340057 /* __MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E905B1F0BB4BE00340057 /* __MarqueeLabel.m */; };
 		E29E90721F0BB4E200340057 /* _LNWeakRef.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E905C1F0BB4BE00340057 /* _LNWeakRef.h */; };
 		E29E90731F0BB4E200340057 /* _LNWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E905D1F0BB4BE00340057 /* _LNWeakRef.m */; };
 		E29E90741F0BB4E200340057 /* LNPopupBar+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E905E1F0BB4BE00340057 /* LNPopupBar+Private.h */; };
@@ -29,16 +27,18 @@
 		E29E907F1F0BB4E200340057 /* UIViewController+LNPopupSupportPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E90691F0BB4BE00340057 /* UIViewController+LNPopupSupportPrivate.m */; };
 		E29E90801F0BB4E200340057 /* UIViewController+LNPopupSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E906A1F0BB4BE00340057 /* UIViewController+LNPopupSupport.h */; };
 		E29E90811F0BB4E200340057 /* LNPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E906B1F0BB4BE00340057 /* LNPopupController.h */; };
+		E93FCD390EBA6BD73473F532 /* libPods-LNPopupController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD82BBBCD6AFC571D61C7EA7 /* libPods-LNPopupController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3E1CB601E2BF87810BA1A7 /* Pods-LNPopupController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNPopupController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNPopupController/Pods-LNPopupController.release.xcconfig"; sourceTree = "<group>"; };
 		39DB52E51B5823330061C589 /* LNPopupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LNPopupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		433E4BF7FA2CEEB80B60418D /* Pods-LNPopupController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNPopupController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNPopupController/Pods-LNPopupController.debug.xcconfig"; sourceTree = "<group>"; };
+		BD82BBBCD6AFC571D61C7EA7 /* libPods-LNPopupController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNPopupController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E90551F0BB4BE00340057 /* LNPopupBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNPopupBar.h; sourceTree = "<group>"; };
 		E29E90561F0BB4BE00340057 /* LNPopupCloseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNPopupCloseButton.h; sourceTree = "<group>"; };
 		E29E90571F0BB4BE00340057 /* LNPopupContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNPopupContentView.h; sourceTree = "<group>"; };
 		E29E90581F0BB4BE00340057 /* LNPopupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNPopupItem.h; sourceTree = "<group>"; };
-		E29E905A1F0BB4BE00340057 /* __MarqueeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __MarqueeLabel.h; sourceTree = "<group>"; };
-		E29E905B1F0BB4BE00340057 /* __MarqueeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __MarqueeLabel.m; sourceTree = "<group>"; };
 		E29E905C1F0BB4BE00340057 /* _LNWeakRef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _LNWeakRef.h; sourceTree = "<group>"; };
 		E29E905D1F0BB4BE00340057 /* _LNWeakRef.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _LNWeakRef.m; sourceTree = "<group>"; };
 		E29E905E1F0BB4BE00340057 /* LNPopupBar+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LNPopupBar+Private.h"; sourceTree = "<group>"; };
@@ -62,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93FCD390EBA6BD73473F532 /* libPods-LNPopupController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +74,8 @@
 			children = (
 				E29E90531F0BB4BE00340057 /* Classes */,
 				39DB52E61B5823330061C589 /* Products */,
+				EE260D8CFF0B13A6F58A55EE /* Pods */,
+				798BB6297A15BDDE8B33A93E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +85,14 @@
 				39DB52E51B5823330061C589 /* LNPopupController.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		798BB6297A15BDDE8B33A93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD82BBBCD6AFC571D61C7EA7 /* libPods-LNPopupController.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E29E90531F0BB4BE00340057 /* Classes */ = {
@@ -109,8 +120,6 @@
 		E29E90591F0BB4BE00340057 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				E29E905A1F0BB4BE00340057 /* __MarqueeLabel.h */,
-				E29E905B1F0BB4BE00340057 /* __MarqueeLabel.m */,
 				E29E905C1F0BB4BE00340057 /* _LNWeakRef.h */,
 				E29E905D1F0BB4BE00340057 /* _LNWeakRef.m */,
 				E29E905E1F0BB4BE00340057 /* LNPopupBar+Private.h */,
@@ -129,6 +138,15 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		EE260D8CFF0B13A6F58A55EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				433E4BF7FA2CEEB80B60418D /* Pods-LNPopupController.debug.xcconfig */,
+				1B3E1CB601E2BF87810BA1A7 /* Pods-LNPopupController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -137,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29E90721F0BB4E200340057 /* _LNWeakRef.h in Headers */,
-				E29E90701F0BB4E200340057 /* __MarqueeLabel.h in Headers */,
 				E29E90801F0BB4E200340057 /* UIViewController+LNPopupSupport.h in Headers */,
 				E29E906F1F0BB4E200340057 /* LNPopupItem.h in Headers */,
 				E29E90771F0BB4E200340057 /* LNPopupController.h in Headers */,
@@ -159,10 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39DB52ED1B5823330061C589 /* Build configuration list for PBXNativeTarget "LNPopupController" */;
 			buildPhases = (
+				7F14B2357374C986360D81FF /* [CP] Check Pods Manifest.lock */,
 				39DB52E01B5823330061C589 /* Sources */,
 				39DB52E11B5823330061C589 /* Frameworks */,
 				39DB52E21B5823330061C589 /* Headers */,
 				39DB52E31B5823330061C589 /* Resources */,
+				8C978A6472D65595FCEBE4DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +233,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F14B2357374C986360D81FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C978A6472D65595FCEBE4DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNPopupController/Pods-LNPopupController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39DB52E01B5823330061C589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +273,6 @@
 			files = (
 				E29E90751F0BB4E200340057 /* LNPopupBar.m in Sources */,
 				E29E907A1F0BB4E200340057 /* LNPopupControllerLongPressGestureDelegate.m in Sources */,
-				E29E90711F0BB4E200340057 /* __MarqueeLabel.m in Sources */,
 				E29E907F1F0BB4E200340057 /* UIViewController+LNPopupSupportPrivate.m in Sources */,
 				E29E907C1F0BB4E200340057 /* LNPopupItem.m in Sources */,
 				E29E90731F0BB4E200340057 /* _LNWeakRef.m in Sources */,
@@ -332,6 +383,7 @@
 		};
 		39DB52EE1B5823330061C589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433E4BF7FA2CEEB80B60418D /* Pods-LNPopupController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEFINES_MODULE = YES;
@@ -343,7 +395,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeoNatan.LNPopupController;
 				PRODUCT_NAME = LNPopupController;
 				SKIP_INSTALL = YES;
@@ -353,6 +405,7 @@
 		};
 		39DB52EF1B5823330061C589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3E1CB601E2BF87810BA1A7 /* Pods-LNPopupController.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEFINES_MODULE = YES;
@@ -364,6 +417,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LeoNatan.LNPopupController;
 				PRODUCT_NAME = LNPopupController;
 				SKIP_INSTALL = YES;

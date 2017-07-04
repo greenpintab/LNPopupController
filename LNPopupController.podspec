@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'LNPopupController'
-  s.version               = '0.0.1'
+  s.version               = '0.0.2'
   s.summary               = 'LNPopupController is a framework for presenting view controllers as popups of other view controllers, much like the Apple Music and Podcasts apps.'
   s.homepage              = 'https://github.com/oxview/LNPopupController'
   s.authors               = {'oxview' => 'oxview@gmail.com'}
@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files          = 'Classes/**/*.{h,m}'
   s.framework             = 'Foundation', 'UIKit'
   s.requires_arc          = true
+  s.dependency 'MarqueeLabel'
 end
