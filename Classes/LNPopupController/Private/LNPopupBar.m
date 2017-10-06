@@ -275,13 +275,13 @@ const NSInteger LNBarStyleInherit = -1;
 		[self.leftBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem* barButtonItem, NSUInteger idx, BOOL* stop)
 		 {
 			 UIView* itemView = [barButtonItem valueForKey:@"view"];
-			 leftMargin = itemView.frame.origin.x + itemView.frame.size.width + 10;
+			 leftMargin += itemView.frame.size.width + 10;
 		 }];
 		
 		[self.rightBarButtonItems enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(UIBarButtonItem* barButtonItem, NSUInteger idx, BOOL* stop)
 		 {
 			 UIView* itemView = [barButtonItem valueForKey:@"view"];
-			 rightMargin = itemView.frame.origin.x - 10;
+			 rightMargin -= itemView.frame.size.width + 10;
 		 }];
 		
 		CGRect frame = _titlesView.frame;
