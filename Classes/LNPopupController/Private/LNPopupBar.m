@@ -126,7 +126,7 @@ CGFloat _LNPopupBarHeightForBarStyle(LNPopupBarStyle style, LNPopupCustomBarView
 {
 	if(customBarVC) { return customBarVC.preferredContentSize.height; }
 	
-	return style == LNPopupBarStyleCompact ? LNPopupBarHeightCompact : LNPopupBarHeightProminent;
+	return style == LNPopupBarStyleCompact ? LNPopupBarHeightCompact : LNPopupBarHeightCompact;
 }
 
 LNPopupBarStyle _LNPopupResolveBarStyleFromBarStyle(LNPopupBarStyle style)
