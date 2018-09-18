@@ -134,7 +134,7 @@ LNPopupBarStyle _LNPopupResolveBarStyleFromBarStyle(LNPopupBarStyle style)
 	LNPopupBarStyle rv = style;
 	if(rv == LNPopupBarStyleDefault)
 	{
-		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 9 ? LNPopupBarStyleProminent : LNPopupBarStyleCompact;
+		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 15 ? LNPopupBarStyleProminent : LNPopupBarStyleCompact;
 	}
 	return rv;
 }
@@ -144,7 +144,7 @@ static LNPopupBarProgressViewStyle _LNPopupResolveProgressViewStyleFromProgressV
 	LNPopupBarProgressViewStyle rv = style;
 	if(rv == LNPopupBarProgressViewStyleDefault)
 	{
-		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 9 ? LNPopupBarProgressViewStyleNone : LNPopupBarProgressViewStyleBottom;
+		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 15 ? LNPopupBarProgressViewStyleNone : LNPopupBarProgressViewStyleBottom;
 	}
 	return rv;
 }

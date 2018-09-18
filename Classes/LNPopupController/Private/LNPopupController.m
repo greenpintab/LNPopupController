@@ -201,7 +201,7 @@ LNPopupInteractionStyle _LNPopupResolveInteractionStyleFromInteractionStyle(LNPo
 	LNPopupInteractionStyle rv = style;
 	if(rv == LNPopupInteractionStyleDefault)
 	{
-		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 9 ? LNPopupInteractionStyleSnap : LNPopupInteractionStyleDrag;
+		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 15 ? LNPopupInteractionStyleSnap : LNPopupInteractionStyleDrag;
 	}
 	return rv;
 }
@@ -211,7 +211,7 @@ LNPopupCloseButtonStyle _LNPopupResolveCloseButtonStyleFromCloseButtonStyle(LNPo
 	LNPopupCloseButtonStyle rv = style;
 	if(rv == LNPopupCloseButtonStyleDefault)
 	{
-		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 9 ? LNPopupCloseButtonStyleChevron : LNPopupCloseButtonStyleRound;
+		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 15 ? LNPopupCloseButtonStyleChevron : LNPopupCloseButtonStyleRound;
 	}
 	return rv;
 }
