@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.resources             = 'LNPopupControllerAssets.xcassets'
   s.framework             = 'Foundation', 'UIKit'
   s.requires_arc          = true
-  s.dependency 'MarqueeLabel'
+  s.dependency 'MarqueeLabel', '~> 3'
 end
